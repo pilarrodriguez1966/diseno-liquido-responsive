@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:80%;
+    margin: 0 auto;
+    background-image: url(../img/conqueror02.jpg);
+    background-repeat: repeat;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    color: red;
+}
+.izquierda{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.derecha{
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+    
+        
+}
+  @media (max-width:470px){
+        body{
+            width: 90%;
+            display: block;
+        }
+    }
+@media print{
+    h1,h2{
+        color: black;
+    }
+  
+
+        
+    
+}
+
+
+
+
